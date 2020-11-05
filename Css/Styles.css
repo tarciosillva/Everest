@@ -124,32 +124,6 @@ html{
     background: #2F281E;
 }
 
-.bt-signup:hover{
-    background: #ffffff;
-    color: #ff4f4f;
-}
-
-.title_apresentacao{
-    line-height: 48px;
-    font: 150px Candara;
-    color: #000000;
-
-}
-
-
-.descricao-apresentacao{
-    line-height: 24px;
-    font: 20px Candara;
-    letter-spacing: 2px;
-    color: #000000;
-
-}
-#pTextoI{
-    text-align: left;
-    font: bold 15 Candara;
-    letter-spacing: 2px;
-    color: #4CA42F;
-}
 .dadoI{
     text-align: left;
     font:  100px/123px Segoe UI;
