@@ -48,7 +48,7 @@ table {
 }
 
 html{
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', 'canada' ;
 }
 
 .logomarca{
@@ -124,6 +124,32 @@ html{
     background: #2F281E;
 }
 
+.bt-signup:hover{
+    background: #ffffff;
+    color: #ff4f4f;
+}
+
+.title_apresentacao{
+    line-height: 48px;
+    font: 150px Candara;
+    color: #000000;
+
+}
+
+
+.descricao-apresentacao{
+    line-height: 24px;
+    font: 20px Candara;
+    letter-spacing: 2px;
+    color: #000000;
+
+}
+#pTextoI{
+    text-align: left;
+    font: bold 15 Candara;
+    letter-spacing: 2px;
+    color: #4CA42F;
+}
 .dadoI{
     text-align: left;
     font:  100px/123px Segoe UI;
@@ -296,9 +322,6 @@ border-radius: 10px;
 
 }
 
-
-
-
 .box-stiry{
 
     width: 50%;
@@ -380,7 +403,7 @@ input[type=submit] {
 
   }
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
   }
   
@@ -442,3 +465,46 @@ input[type=submit] {
 .foter-auto a{
     color: #4CA42F ;
 }
+
+@media only screen and (max-width: 900px){
+    .apresentacao{
+        background: white;
+        width: 100%;
+    }
+    .apresentacao__descricao, .dadoI, .textoI{
+        text-align: center;
+        margin-left: 50px;
+        
+    }
+    .bt-red,.bt-red:hover{
+        margin-top: 30px;
+        align-items: center;
+        margin-left: 200px;
+    }
+
+    .box-ilustracao {
+        width: 60%;
+        margin-left: 50px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .about-box , .about-box__title{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .box-wrapper,  .box-wrapper, .box-tex .box-buuton-tabela{
+        width: 50%;
+        margin: 20px 20px ;
+        align-items: center;
+        text-align: center;
+
+
+
+    }
+    
+}
+
+@media(max-width:792px){
+    a, .pointing{display:none;}     
+    a:first-child{display: block;}      }
